@@ -1,0 +1,8 @@
+.smallAnimation{
+  width: 450px;
+}
+@media screen and (max-width: 900px) {
+  .smallAnimation{
+    width: 250px;
+  }
+}

@@ -1,0 +1,246 @@
+.ContainerHard{
+  z-index: 2;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0px;
+}
+.ContainerHard .tittles::after {
+  display: none;
+}
+.ContainerHard .padding{
+  padding: 1rem 0rem !important;
+}
+.containerskills{
+  padding: 0.8rem 1.2rem;
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  padding-left: 0px;
+  margin-left: 1.2rem;
+}
+.ContainerHard .tittles, 
+.ContainerHard .Listhard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Listhard::after{
+  content: "";
+  position: absolute;
+  left: -21px;
+  height: 100%;
+  width: 8px;
+  border-radius: 8px;
+}
+.dark .Listhard::after {
+  background-color: #fa104e;
+}
+.clear .Listhard::after{
+  background-color: #4070f4;
+}
+.ContainerHard .Listhard{
+  margin-left: 0.8rem;
+  flex-direction: column;
+  list-style: none;
+}
+.ContainerHard .Listhard .Element{
+  width: 100%;
+  margin: 4px 0px;
+  font-weight: 400;
+  position: relative;
+  transition: all .5s ease-in-out;
+}
+.Slider{
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+}
+.Slider .tittle {
+  text-align: center;
+  font-size: 24px;
+}
+.slick-dots, .slick-arrow, .slick-next{
+  display: none !important;
+}
+.Slider .Element {
+  margin: 0px;
+  padding: 1rem;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px; /* Ajusta la altura según tus necesidades */
+}
+.Slider span{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#ElementIcon{
+  width: 120px;
+  height: 120px;
+}
+.Element .icon{
+  font-size: 7.5rem !important;
+  font-weight: 500;
+}
+.ContainerHard .Listhard .Element::after{
+  content: "";
+  position: absolute;
+  scale: 0.8;
+  right: -8px;
+  top: 5px;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  transition: all .5s ease-in-out;
+}
+.dark .Element::after,
+.dark .Element::before{
+  background-color: #fff !important;
+}
+.clear .Element::after, 
+.clear .Element::before{
+  background-color: #333 !important;
+}
+.ContainerHard .Listhard .Element::before{
+  content: "";
+  position: absolute;
+  scale: 0.8;
+  right: -8px;
+  bottom: 5px;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  transition: all .5s ease-in-out;
+}
+.ContainerHard .Listhard .Element:hover::after{
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  scale: 1.2;
+}
+.ElementContainer{
+  height: 100%;
+  width: 120px;
+}
+.containerflex{
+  flex: 2;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.list{
+  padding: 0.8rem !important;
+}
+.ContainerBar{
+  height: 80px !important;
+  width: 100%;
+  padding: -1rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  backdrop-filter: blur(8px);
+  background-color: transparent;
+  border-radius: 20px;
+}
+.dark .ContainerBar, .dark .BarLine{
+  box-shadow: 0px 0px 8px rgba(250, 16, 78, 0.1) !important;
+}
+.clear .ContainerBar, .clear .BarLine{
+  box-shadow: 0px 0px 8px rgba(64, 112, 244, 0.1) !important;
+}
+.BarLine{
+  overflow: hidden;
+  width: 100%;
+  height: 12px;
+  border-radius: 12px;
+}
+@media screen and (max-width: 900px) {
+  .containerflex{
+    justify-content: center;
+    gap: 4%;
+  }
+  .Slider .Element{
+    margin: 0px;
+    padding: 0px;
+  }
+  .ContainerHard{
+    padding: 1rem;
+    gap: 12px;
+  }
+  .ContainerHard .ContainerBar{
+    margin: 0px;
+  }
+  .ContainerBar{
+    padding: 1rem;
+  }
+  .containerskills{
+    margin: 0.2rem;
+    gap: 12px;
+  }
+  .slick-arrow, .slick-next{
+    display: flex;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ContainerHard{
+    padding: 0px;
+  }
+  .containerinfohome{
+    margin: 0px;
+  }
+  .containerinfohome .tittle_am,
+  .containerinfohome .tittle{
+    font-size: 14px !important;
+  }
+  .containerskills .tittle{
+    font-size: 20px !important;
+  }
+  .containerflex{
+    gap: 5px;
+  }
+  .ContainerBar{
+    padding: 0.2rem 2rem;
+  }
+  .container_madia::before{
+    margin-top: 4px !important;
+  }
+  .margin{
+    margin: 0.2rem;
+  }
+  .containerskills{
+    padding-right: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .containerskills .tittles{
+    margin-left: -12%;
+  }
+  .menor300{
+    width: 100%;
+    padding-left: 12%;
+  }
+  .containerinfohome .tittles{
+    font-size: 15px !important;
+  }
+  .containerinfohome .Parrafo{
+    font-size: 12px !important;
+  }
+}

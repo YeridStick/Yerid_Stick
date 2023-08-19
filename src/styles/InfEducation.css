@@ -1,0 +1,59 @@
+.InfoEducation{
+  margin: 1rem;
+  flex-direction: column !important;
+}
+.InfoEducation .tittle_am{
+  font-size: 22px;
+}
+.InfoEducation .Fecha {
+  white-space: nowrap;
+}
+.marginLeft{
+  margin-left: 1rem;
+}
+.marginTop{
+  margin-top: 1rem;
+}
+.DescIcon {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.DescIcon .Imagen{
+  width: 100%;
+  object-fit: contain;
+}
+.column{
+  flex-direction: column !important;
+}
+.textcenter{
+  text-align: center;
+  white-space: nowrap !important;
+}
+@media screen and (min-width: 900px) {
+  .space{
+    justify-content: center !important;
+  }
+  .InfoEducation{
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .InfoEducation{
+    text-align: center !important;
+  }
+  .Descripcion{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .DescIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75% !important;
+  }
+  .marginLeft{
+    margin: 0px;
+  }
+}

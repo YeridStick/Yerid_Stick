@@ -1,0 +1,138 @@
+.height{
+  height: 100%;
+}
+.ListProyect .width100{
+  width: 100% !important;
+}
+.ListProyect .descript{
+  padding: 1rem 2.5rem;
+  text-align: center;
+}
+.Project .margin{
+  margin: 2rem;
+  margin-bottom: 1rem;
+}
+.Project .padding{
+  padding: 1rem;
+}
+.Project a{
+  text-decoration: none;
+}
+.Project .position{
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  left: 0px;
+  width: 40px;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  height: 108%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.positionLinkExterno{
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.positionLinkExterno .items {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.positionLinkExterno .items i{
+  font-size: 50px !important;
+  color: #fff !important;
+  transition: all 0.4s ease;
+}
+.positionLinkExterno .items:hover i{
+  scale: 1.2;
+  font-weight: 500;
+}
+.Project .position::-webkit-scrollbar{
+  width: 8px; /* Oculta las barras de desplazamiento en Chrome, Safari y Opera */
+  border-radius: 8px;
+  margin-left: -8px;
+}
+.clear .Project .position::-webkit-scrollbar{
+  box-shadow: inset 0px 0px 20px #eef5fe;
+}
+.dark .Project .position::-webkit-scrollbar{
+  box-shadow: inset 0px 0px 20px #333;
+}
+.clear .Project .position::-webkit-scrollbar-thumb{
+  background-color: #4070f4;
+  border-radius: 8px;
+}
+.dark .Project .position::-webkit-scrollbar-thumb{
+  background-color: #fa104e;
+  border-radius: 8px;
+}
+
+.Project .element
+{
+  margin-bottom: 0.5rem;
+}
+.clear .position,
+.clear .positionLinkExterno .items
+{
+  background-color: #4070f4;
+  color: #fff;
+}
+.dark .position,
+.dark .positionLinkExterno .items
+{
+  background-color: #fa104e;
+  color: #fff;
+}
+.listProject{
+  list-style: none;
+}
+.positionRelative{
+  position: relative !important;
+  top: 50%;
+  transform: translateY(50%);
+}
+@media screen and (max-width: 900px){
+  .Project .h2Project{
+    font-size: 22px;
+  }
+  .conteinerTitulos{
+    margin: 0px !important;
+  }
+  .Project .padding{
+    padding: 0.5rem 0.8rem;
+  }
+  .positionLinkExterno{
+    right: -30px;
+    height: 100%;
+    width: 30px;
+  }
+  .Project .position{
+    left: -30px;
+    width: 30px;
+    height: 100%;
+  }
+  .textDescript{
+    font-size: 11px;
+  }
+  .containerOverflow{
+    overflow: hidden;
+  }
+  .textOverflow{
+    width: 235px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el contenido excedente */
+    text-overflow: ellipsis;
+  }
+  .Project #IconoLenguage{
+    font-size: 18px;
+  }
+}

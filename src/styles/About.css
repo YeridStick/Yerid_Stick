@@ -1,0 +1,39 @@
+#fotoAbout{
+  width: 180px;
+  object-fit: contain;
+  margin: 1rem;
+}
+.About .containerAbout i{
+  font-size: 40px;
+  font-weight: 600;
+}
+#linkabout{
+  font-weight: 300;
+}
+#Fecha{
+  font-size: 18px;
+  font-weight: 400;
+}
+.borderRadiosAbout{
+  border-radius: 50%;
+}
+.About .margin{
+  margin: 1rem !important;
+} 
+.About .padding{
+  padding: 1rem !important;
+}
+
+@media screen and (max-width: 900px) {
+  #fotoAbout{
+    width: 50px;
+    object-fit: contain;
+    margin: 1rem;
+  }
+  .About .margin{
+    margin: 0.5rem !important;
+  } 
+  .About .padding{
+    padding: 0.5rem !important;
+  }
+}
