@@ -19,7 +19,7 @@ export default function MenuItem({Icon_tema, isDarkMode, setIsDarkMode}) {
         <span id='title' className="title">Dashboard</span>
         <div id="line"></div>
 				{/*Enlaces de menu*/}
-				<Items ruta = {"/"} icono = {'bx bx-home'} text_link = {"Home"}/>
+				<Items ruta = {"/Yerid_Stick"} icono = {'bx bx-home'} text_link = {"Home"}/>
 				<Items ruta = {"/Projects"} icono = {'bx bx-folder'} text_link = {"Projects"}/>
 				<Items ruta = {"/About"} icono = {'bx bx-info-circle'} text_link = {"About"}/>
 

@@ -25,7 +25,7 @@ export default function Rutas({ locked, setLocked, isDarkMode, setIsDarkMode }) 
         <Route exact path={"/Setting"} Component={Setting}/>
         <Route exact path={"/Projects"} Component={NewProjects}/>
         <Route exact path={"/About"} Component={About}/>
-        <Route exact path={"/"} element={<Home isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />}/>
+        <Route exact path={"/Yerid_Stick"} element={<Home isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />}/>
         <Route path={"*"} element={<Error404 isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />}/>
       </Routes>
     </Router>
