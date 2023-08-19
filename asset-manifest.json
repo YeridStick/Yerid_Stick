@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Yerid_Stick/static/css/main.a194f8f3.css",
+    "main.js": "/Yerid_Stick/static/js/main.05aa428a.js",
+    "static/css/145.71bb0972.chunk.css": "/Yerid_Stick/static/css/145.71bb0972.chunk.css",
+    "static/js/145.0f45f098.chunk.js": "/Yerid_Stick/static/js/145.0f45f098.chunk.js",
+    "static/js/479.735b8d03.chunk.js": "/Yerid_Stick/static/js/479.735b8d03.chunk.js",
+    "static/js/787.be2ac746.chunk.js": "/Yerid_Stick/static/js/787.be2ac746.chunk.js",
+    "static/media/YeridStick.webp": "/Yerid_Stick/static/media/YeridStick.e48afcae41b228deabc0.webp",
+    "static/media/Erro404.webp": "/Yerid_Stick/static/media/Erro404.8c8488e1cf9b07b04e9c.webp",
+    "static/media/Profile_reducida.webp": "/Yerid_Stick/static/media/Profile_reducida.78e2f11b4a1f2f0b7427.webp",
+    "static/media/Erro404_clear.webp": "/Yerid_Stick/static/media/Erro404_clear.1489a62df6512f569519.webp",
+    "static/media/Mi logo color.webp": "/Yerid_Stick/static/media/Mi logo color.a7e19ca1658f4734aaad.webp",
+    "static/media/slick.svg": "/Yerid_Stick/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Yerid_Stick/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Yerid_Stick/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Yerid_Stick/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Yerid_Stick/index.html",
+    "main.a194f8f3.css.map": "/Yerid_Stick/static/css/main.a194f8f3.css.map",
+    "main.05aa428a.js.map": "/Yerid_Stick/static/js/main.05aa428a.js.map",
+    "145.71bb0972.chunk.css.map": "/Yerid_Stick/static/css/145.71bb0972.chunk.css.map",
+    "145.0f45f098.chunk.js.map": "/Yerid_Stick/static/js/145.0f45f098.chunk.js.map",
+    "479.735b8d03.chunk.js.map": "/Yerid_Stick/static/js/479.735b8d03.chunk.js.map",
+    "787.be2ac746.chunk.js.map": "/Yerid_Stick/static/js/787.be2ac746.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a194f8f3.css",
+    "static/js/main.05aa428a.js"
+  ]
+}
