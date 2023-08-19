@@ -27,7 +27,7 @@ function About() {
               <span className="width100">
                 My name is <b translate="no">Yerid Stick Ramírez Guzmán</b>
               </span> 
-              <span>
+              <span className="width100">
                 This is my web portfolio, knowledge base and approaches that I have at the moment. <i id="Fecha">07/19/2023</i> 
               </span>
               
