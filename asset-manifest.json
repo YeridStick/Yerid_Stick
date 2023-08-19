@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Yerid_Stick/static/css/main.a194f8f3.css",
-    "main.js": "/Yerid_Stick/static/js/main.05aa428a.js",
+    "main.js": "/Yerid_Stick/static/js/main.9b1134fa.js",
     "static/css/145.71bb0972.chunk.css": "/Yerid_Stick/static/css/145.71bb0972.chunk.css",
     "static/js/145.0f45f098.chunk.js": "/Yerid_Stick/static/js/145.0f45f098.chunk.js",
     "static/js/479.735b8d03.chunk.js": "/Yerid_Stick/static/js/479.735b8d03.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/slick.woff": "/Yerid_Stick/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Yerid_Stick/index.html",
     "main.a194f8f3.css.map": "/Yerid_Stick/static/css/main.a194f8f3.css.map",
-    "main.05aa428a.js.map": "/Yerid_Stick/static/js/main.05aa428a.js.map",
+    "main.9b1134fa.js.map": "/Yerid_Stick/static/js/main.9b1134fa.js.map",
     "145.71bb0972.chunk.css.map": "/Yerid_Stick/static/css/145.71bb0972.chunk.css.map",
     "145.0f45f098.chunk.js.map": "/Yerid_Stick/static/js/145.0f45f098.chunk.js.map",
     "479.735b8d03.chunk.js.map": "/Yerid_Stick/static/js/479.735b8d03.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.a194f8f3.css",
-    "static/js/main.05aa428a.js"
+    "static/js/main.9b1134fa.js"
   ]
 }
