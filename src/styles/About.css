@@ -3,6 +3,9 @@
   object-fit: contain;
   margin: 1rem;
 }
+.About .width100{
+  max-width: 500px !important;
+}
 .About .containerAbout i{
   font-size: 40px;
   font-weight: 600;
@@ -35,5 +38,8 @@
   } 
   .About .padding{
     padding: 0.5rem !important;
+  }
+  .About .width100{
+    max-width: 100% !important;
   }
 }
