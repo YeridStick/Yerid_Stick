@@ -25,25 +25,31 @@ function About() {
           <div className="width100 flex flex_wrap center shadow margin">
             <p className="flex flex_wrap padding ">
               <span className="width100">
-                My name is <b translate="no">Yerid Stick Ramírez Guzmán</b>
+                Mi nombre es <b translate="no">Yerid Stick Ramírez Guzmán</b>
               </span> 
               <span className="width100">
-                This is my web portfolio, knowledge base and approaches that I have at the moment. <i id="Fecha">07/19/2023</i> 
+                Este es mi portafolio web, base de conocimientos y enfoques que tengo en este momento. <i id="Fecha">07/19/2023</i> 
               </span>
-              
-              This project is made in React.js
+              <div className='center shadow flex padding margin'>
+                <div id="AboutIcon">
+                  <ItemsExternos
+                    ruta={"https://es.react.dev/"}
+                    icono={"bx bxl-react"}
+                    text_link={"Este proyecto está hecho en React.js: Ir a documentacion"}
+                  />
+                </div>
+              </div>
 
               <div className="width100">
-                <p className="width100">- I currently live in Neiva - Huila Colombia</p>
-                <p className="width100">- I was born on December 9, 2003 </p>
-                <p className="width100">- I am a student at the SurColombaina university</p>
-                <p className="width100">- Self-learning enthusiast</p>
-                
+                <p className="width100">- Actualmente vivo en Neiva - Huila Colombiaa</p>
+                <p className="width100">- Nací el 9 de diciembre de 2003 </p>
+                <p className="width100">- Estudiante de la universidad surcolombiana</p>
+                <p className="width100">- Entusiasta del autoaprendizaje :)</p>
               </div>
             </p>
           </div>
           <div className="width100 flex flex_wrap center shadow margin">
-            <h3 className="width100 flex flex_wrap center margin padding">Contact me</h3>
+            <h3 className="width100 flex flex_wrap center margin padding">Contactame</h3>
           </div>
           <i class='bx bx-chevron-down' ></i>
           <div className="width100 flex flex_wrap center shadow margin">

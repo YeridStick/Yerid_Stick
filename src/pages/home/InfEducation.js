@@ -10,12 +10,12 @@ export default function InfEducation({ isDarkMode, setIsDarkMode }) {
     <div className='InfoEducation shadow containerflex'>
       <section className="InfoEducation center flex">
         <h2 className="center InfoEducation tittle_am color tittles">
-          Educational training
+          Formación académica
         </h2>
         <div className="flex center marginTop">
           <FuntEducation
-            Carrera={"Software development"}
-            Fecha={"2021 - 2023"}
+            Carrera={"desarrollo de software"}
+            Fecha={"2021 - 2024"}
             Imagen={isDarkMode ? USCO_Positivo : USCO_Negativo}
           />
         </div>

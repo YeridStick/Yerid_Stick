@@ -26,8 +26,41 @@
 .About .padding{
   padding: 1rem !important;
 }
+#AboutIcon{
+  padding: 0.5rem;
+  margin-right: 4px;
+}
+#AboutIcon, #AboutIcon i{
+  font-weight: 300 !important;
+}
+#AboutIcon i{
+  animation: Rotate 4s linear infinite;
+}
+#AboutIcon:hover, #AboutIcon a{
+  margin: 0px;
+  padding: 0px;
+  color: #333;
+  background-color: transparent !important;
+}
+
+#AboutIcon span{
+  font-size: 15px;
+  text-decoration: underline;
+}
+@keyframes Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (max-width: 900px) {
+  #AboutIcon{
+    padding: 0.5rem;
+    width: 100% !important;
+  }
   #fotoAbout{
     width: 50px;
     object-fit: contain;
