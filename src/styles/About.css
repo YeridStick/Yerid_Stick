@@ -36,9 +36,11 @@
 #AboutIcon i{
   animation: Rotate 4s linear infinite;
 }
-#AboutIcon:hover, #AboutIcon a{
+#AboutIcon a{
   margin: 0px;
   padding: 0px;
+}
+#AboutIcon:hover, #AboutIcon a{
   color: #333;
   background-color: transparent !important;
 }
